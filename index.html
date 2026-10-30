@@ -311,7 +311,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </div>
 </header>
-
 <!-- ГОЛОВНА -->
 <main class="container hidden" id="mainPage">
 <div class="hero-unified">
@@ -349,7 +348,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 <div class="tip-card">💡 <strong>Пам'ятай:</strong> Фінансова грамотність — це щоденна відповідальність. Кожне твоє рішення впливає на майбутнє.</div>
 </main>
-
 <!-- КРОК 1: СТАРТОВЕ ЗАВДАННЯ -->
 <main class="container hidden" id="step1Page">
 <div class="step-header"><h2 class="step-title">🎯 Крок 1. Стартове завдання</h2></div>
@@ -383,7 +381,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </section>
 </main>
-
 <!-- КРОК 2: РАЦІОНАЛЬНЕ УПРАВЛІННЯ -->
 <main class="container hidden" id="step2Page">
 <div class="step-header"><div class="step-header-top"><h2 class="step-title">💵 Крок 2. Раціональне управління грошима</h2><span class="step-badge">2 завдання</span></div></div>
@@ -395,7 +392,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <p>Такий підхід допомагає уникати необдуманих витрат і почуватися фінансово впевненіше.</p>
 </div>
 <div class="key-point">💡 <strong>Важливо!</strong> Фінансові радники рекомендують відкладати приблизно <strong>10% доходу</strong>. Якщо зараз це неможливо — варто починати навіть із невеликої суми.</div>
-
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:20px 0">
 <div style="background:linear-gradient(135deg,#dcfce7,#bbf7d0);padding:16px;border-radius:12px;border-left:4px solid var(--success)">
 <div style="font-size:28px">1️⃣</div>
@@ -420,7 +416,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 <div class="navigation"><button class="btn btn-secondary" onclick="goToMainPage()">← До змісту</button><button class="btn btn-primary" onclick="showS2('s2t1')">Далі: Завдання 1 →</button></div>
 </section>
-
 <section class="card hidden" id="s2t1">
 <h2>💼 Завдання 1. Розподіли 5000 грн Марії</h2>
 <div class="feedback feedback-warning mb-24">
@@ -458,7 +453,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div id="s2t1f" class="feedback" style="display:none"></div>
 <div class="navigation"><button class="btn btn-secondary" onclick="showS2('s2Theory')">← Назад</button><button class="btn btn-primary" onclick="chkBudgetSplit()">✓ Перевірити</button><button class="btn btn-success" onclick="showS2('s2t2')">Далі →</button></div>
 </section>
-
 <section class="card hidden" id="s2t2">
 <h2>⚠️ Завдання 2. Непередбачені витрати</h2>
 <div class="feedback feedback-warning mb-24">
@@ -482,7 +476,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="navigation"><button class="btn btn-secondary" onclick="showS2('s2t1')">← Назад</button><button class="btn btn-primary" onclick="chkRadio('s2t2','s2t2f','step2_task2')">✓ Перевірити</button><button class="btn btn-success" onclick="goToStep(3)">Далі: Крок 3 →</button></div>
 </section>
 </main>
-
 <!-- КРОК 3: УХВАЛЕННЯ ФІНАНСОВИХ РІШЕНЬ -->
 <main class="container hidden" id="step3Page">
 <div class="step-header"><div class="step-header-top"><h2 class="step-title">🧠 Крок 3. Ухвалення фінансових рішень</h2><span class="step-badge">3 завдання</span></div></div>
@@ -493,7 +486,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <p><strong>Фінансове рішення</strong> — це свідомий вибір з урахуванням потреб, можливостей, ризиків і наслідків.</p>
 <p>Фінансовий вибір впливає не лише на теперішні витрати, а й на майбутні можливості людини. Тому важливо оцінити ризики, передбачити наслідки та визначити, від якої іншої мети доведеться відмовитися.</p>
 </div>
-
 <div class="decision-tree">
 <h4>🎯 4 кроки обдуманого фінансового рішення</h4>
 <div class="decision-root">💰 ФІНАНСОВЕ РІШЕННЯ</div>
@@ -507,12 +499,9 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <p style="color:var(--text-muted);font-style:italic;text-align:center">👆 Натисни на будь-який крок, щоб дізнатися більше</p>
 </div>
 </div>
-
 <div class="key-point">⚠️ <strong>Що може заважати обдуманому вибору:</strong> емоції, реклама, тиск оточення, поспіх. Ці чинники спонукають діяти швидко й не враховувати реальні можливості.</div>
-
 <div class="navigation"><button class="btn btn-secondary" onclick="goToMainPage()">← До змісту</button><button class="btn btn-primary" onclick="showS3('s3t1')">Далі: Завдання 1 →</button></div>
 </section>
-
 <section class="card hidden" id="s3t1">
 <h2>🎮 Завдання 1. Ситуація: Назар і музичний фестиваль</h2>
 <div class="feedback feedback-warning mb-24">
@@ -535,7 +524,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 <div class="navigation"><button class="btn btn-secondary" onclick="showS3('s3Theory')">← Назад</button><button class="btn btn-primary" onclick="chkRadio('s3t1','s3t1f','step3_task1')">✓ Перевірити</button><button class="btn btn-success" onclick="showS3('s3t2')">Далі →</button></div>
 </section>
-
 <section class="card hidden" id="s3t2">
 <h2>🧩 Завдання 2. Віднови порядок кроків фінансового рішення</h2>
 <div class="tap-instruction">
@@ -559,7 +547,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div id="s3t2f" class="feedback" style="display:none"></div>
 <div class="navigation"><button class="btn btn-secondary" onclick="showS3('s3t1')">← Назад</button><button class="btn btn-primary" onclick="chkSort()">✓ Перевірити</button><button class="btn btn-success" onclick="showS3('s3t3')">Далі →</button></div>
 </section>
-
 <section class="card hidden" id="s3t3">
 <h2>✅❌ Завдання 3. Що заважає обдуманому вибору?</h2>
 <div class="feedback feedback-warning mb-24"><strong>📌 Інструкція:</strong> Для кожного твердження обери — чи є цей чинник перешкодою для обдуманого фінансового рішення.</div>
@@ -599,7 +586,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="navigation"><button class="btn btn-secondary" onclick="showS3('s3t2')">← Назад</button><button class="btn btn-primary" onclick="chkAllTF('s3t3',{s3t3q1:'yes',s3t3q2:'no',s3t3q3:'yes',s3t3q4:'no'},'step3_task3')">✓ Завершити</button><button class="btn btn-success" onclick="goToStep(4)">Далі: Крок 4 →</button></div>
 </section>
 </main>
-
 <!-- КРОК 4: ФІНАНСОВІ РИЗИКИ -->
 <main class="container hidden" id="step4Page">
 <div class="step-header"><div class="step-header-top"><h2 class="step-title">⚠️ Крок 4. Фінансові ризики</h2><span class="step-badge">2 завдання</span></div></div>
@@ -636,7 +622,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="key-point">💡 <strong>Зменшити ризики допомагають:</strong> планування витрат, створення резерву, перевірка фінансових пропозицій та обережне користування кредитами.</div>
 <div class="navigation"><button class="btn btn-secondary" onclick="goToMainPage()">← До змісту</button><button class="btn btn-primary" onclick="showS4('s4t1')">Далі: Завдання 1 →</button></div>
 </section>
-
 <section class="card hidden" id="s4t1">
 <h2>🧩 Завдання 1. Класифікуй фінансові ризики</h2>
 <div class="feedback feedback-warning mb-24">
@@ -656,7 +641,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div id="s4t1f" class="feedback" style="display:none"></div>
 <div class="navigation"><button class="btn btn-secondary" onclick="showS4('s4Theory')">← Назад</button><button class="btn btn-primary" onclick="chkRiskClassify()">✓ Перевірити</button><button class="btn btn-success" onclick="showS4('s4t2')">Далі →</button></div>
 </section>
-
 <section class="card hidden" id="s4t2">
 <h2>🎯 Завдання 2. Аналіз наслідків</h2>
 <div class="feedback feedback-warning mb-24">
@@ -680,7 +664,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="navigation"><button class="btn btn-secondary" onclick="showS4('s4t1')">← Назад</button><button class="btn btn-primary" onclick="chkRadio('s4t2','s4t2f','step4_task2')">✓ Перевірити</button><button class="btn btn-success" onclick="goToStep(5)">Далі: Крок 5 →</button></div>
 </section>
 </main>
-
 <!-- КРОК 5: ФІНАНСОВЕ ШАХРАЙСТВО -->
 <main class="container hidden" id="step5Page">
 <div class="step-header"><div class="step-header-top"><h2 class="step-title">🚨 Крок 5. Фінансове шахрайство</h2><span class="step-badge">2 завдання</span></div></div>
@@ -715,19 +698,18 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 <div class="fraud-card" style="--card-accent:#16a34a" tabindex="0">
 <div class="fraud-card-icon">🎁</div>
-<div class="fraud-card-title">Акції та подарунки</div>
-<div class="fraud-card-desc">Повідомлення про виграш без твоєї участі.<br><strong>Ознаки:</strong> просять оплатити «комісію».</div>
+<div class="fraud-card-title">Фальшивий виграш / акція</div>
+<div class="fraud-card-desc">Повідомлення про виграш без твоєї участі.<br><strong>Ознаки:</strong> просять оплатити «комісію» за приз.</div>
 </div>
 <div class="fraud-card" style="--card-accent:#0891b2" tabindex="0">
 <div class="fraud-card-icon">🆘</div>
-<div class="fraud-card-title">Просьба про допомогу</div>
-<div class="fraud-card-desc">Шахраї видають себе за знайому людину.<br><strong>Ознаки:</strong> терміновість, новий акаунт.</div>
+<div class="fraud-card-title">Прохання про допомогу / підроблений продавець</div>
+<div class="fraud-card-desc">Шахраї видають себе за знайому людину або продають неіснуючі товари.<br><strong>Ознаки:</strong> терміновість, новий акаунт, підозріло низька ціна.</div>
 </div>
 </div>
 <div class="key-point">💡 <strong>Головне правило:</strong> Шахраї завжди використовують поспіх, страх, довіру або бажання швидко отримати гроші.</div>
 <div class="navigation"><button class="btn btn-secondary" onclick="goToMainPage()">← До змісту</button><button class="btn btn-primary" onclick="showS5('s5t1')">Далі: Завдання 1 →</button></div>
 </section>
-
 <section class="card hidden" id="s5t1">
 <h2>🕵️ Завдання 1. Розпізнай вид шахрайства</h2>
 <div class="feedback feedback-warning mb-24">
@@ -739,7 +721,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="task-options" id="s5t1q1">
 <div class="option" data-correct="true" onclick="selRadio(this,'s5t1q1')" tabindex="0" role="radio"><div class="option-radio"></div><div class="option-text"><div class="option-label">📧 Підозріле повідомлення / підроблений сайт</div></div></div>
 <div class="option" data-correct="false" onclick="selRadio(this,'s5t1q1')" tabindex="0" role="radio"><div class="option-radio"></div><div class="option-text"><div class="option-label">📞 Дзвінок з «банку»</div></div></div>
-<div class="option" data-correct="false" onclick="selRadio(this,'s5t1q1')" tabindex="0" role="radio"><div class="option-radio"></div><div class="option-text"><div class="option-label">🎁 Виграш у лотерею</div></div></div>
+<div class="option" data-correct="false" onclick="selRadio(this,'s5t1q1')" tabindex="0" role="radio"><div class="option-radio"></div><div class="option-text"><div class="option-label">🎁 Фальшивий виграш / акція</div></div></div>
 </div>
 </div></div></div>
 <div class="accordion-item">
@@ -761,9 +743,8 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </div></div></div>
 <div id="s5t1f" class="feedback" style="display:none"></div>
-<div class="navigation"><button class="btn btn-secondary" onclick="showS5('s5Theory')">← Назад</button><button class="btn btn-primary" onclick="chkAllRadio('s5t1',{s5t1q1:'Підозріле повідомлення / підроблений сайт',s5t1q2:'Фальшивий виграш / акція',s5t1q3:'Просьба про допомогу / підроблений продавець'},'step5_task1')">✓ Завершити</button><button class="btn btn-success" onclick="showS5('s5t2')">Далі →</button></div>
+<div class="navigation"><button class="btn btn-secondary" onclick="showS5('s5Theory')">← Назад</button><button class="btn btn-primary" onclick="chkAllRadio('s5t1',{s5t1q1:'📧 Підозріле повідомлення / підроблений сайт',s5t1q2:'🎁 Фальшивий виграш / акція',s5t1q3:'🆘 Просьба про допомогу / підроблений продавець'},'step5_task1')">✓ Завершити</button><button class="btn btn-success" onclick="showS5('s5t2')">Далі →</button></div>
 </section>
-
 <section class="card hidden" id="s5t2">
 <h2>✅❌ Завдання 2. Міфи та факти про шахрайство</h2>
 <div class="feedback feedback-warning mb-24"><strong>📌 Інструкція:</strong> Визнач, які твердження є МІФАМИ, а які — ФАКТАМИ.</div>
@@ -803,7 +784,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="navigation"><button class="btn btn-secondary" onclick="showS5('s5t1')">← Назад</button><button class="btn btn-primary" onclick="chkAllTF('s5t2',{s5t2q1:'myth',s5t2q2:'fact',s5t2q3:'myth',s5t2q4:'fact'},'step5_task2')">✓ Завершити</button><button class="btn btn-success" onclick="goToStep(6)">Далі: Крок 6 →</button></div>
 </section>
 </main>
-
 <!-- КРОК 6: ЯК ЗБЕРЕГТИ ГРОШІ -->
 <main class="container hidden" id="step6Page">
 <div class="step-header"><div class="step-header-top"><h2 class="step-title">🛡️ Крок 6. Як зберегти свої гроші</h2><span class="step-badge">2 завдання</span></div></div>
@@ -825,22 +805,20 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 <div class="navigation"><button class="btn btn-secondary" onclick="goToMainPage()">← До змісту</button><button class="btn btn-primary" onclick="showS6('s6t1')">Далі: Завдання 1 →</button></div>
 </section>
-
 <section class="card hidden" id="s6t1">
 <h2>🛡️ Завдання 1. Обери правила фінансової безпеки</h2>
-<div class="feedback feedback-warning mb-24"><strong>📌 Питання:</strong> Обери всі дії, які є правилами фінансової безпеки.</div>
+<div class="feedback feedback-warning mb-24"><strong>📌 Питання:</strong> Обери всі дії, які допомагають безпечно та відповідально поводитися з грошима.</div>
 <div class="task-options" id="s6t1">
-<div class="option" data-correct="true" onclick="tog(this)" tabindex="0" role="checkbox"><div class="option-checkbox"></div><div class="option-text"><div class="option-label">🏦 Маю фінансовий резерв</div></div></div>
+<div class="option" data-correct="true" onclick="tog(this)" tabindex="0" role="checkbox"><div class="option-checkbox"></div><div class="option-text"><div class="option-label">🏦 Створюю фінансовий резерв</div></div></div>
 <div class="option" data-correct="false" onclick="tog(this)" tabindex="0" role="checkbox"><div class="option-checkbox"></div><div class="option-text"><div class="option-label">💳 Брати кредит на все, що сподобається</div></div></div>
-<div class="option" data-correct="true" onclick="tog(this)" tabindex="0" role="checkbox"><div class="option-checkbox"></div><div class="option-text"><div class="option-label">🔐 Не повідомляю свої паролі і коди</div></div></div>
-<div class="option" data-correct="true" onclick="tog(this)" tabindex="0" role="checkbox"><div class="option-checkbox"></div><div class="option-text"><div class="option-label">🧠 Думаю перед кожною покупкою</div></div></div>
+<div class="option" data-correct="true" onclick="tog(this)" tabindex="0" role="checkbox"><div class="option-checkbox"></div><div class="option-text"><div class="option-label">🔐 Не розголошую паролі, PIN-коди та коди підтвердження</div></div></div>
+<div class="option" data-correct="true" onclick="tog(this)" tabindex="0" role="checkbox"><div class="option-checkbox"></div><div class="option-text"><div class="option-label">🧠 Обмірковую покупки та уникаю імпульсивних витрат</div></div></div>
 <div class="option" data-correct="false" onclick="tog(this)" tabindex="0" role="checkbox"><div class="option-checkbox"></div><div class="option-text"><div class="option-label">🎰 Грати в азартні ігри для швидкого заробітку</div></div></div>
-<div class="option" data-correct="true" onclick="tog(this)" tabindex="0" role="checkbox"><div class="option-checkbox"></div><div class="option-text"><div class="option-label">📊 Складати бюджет або планувати витрати</div></div></div>
+<div class="option" data-correct="true" onclick="tog(this)" tabindex="0" role="checkbox"><div class="option-checkbox"></div><div class="option-text"><div class="option-label">📊 Планую доходи й витрати</div></div></div>
 </div>
 <div id="s6t1f" class="feedback" style="display:none"></div>
 <div class="navigation"><button class="btn btn-secondary" onclick="showS6('s6Theory')">← Назад</button><button class="btn btn-primary" onclick="chkMulti('s6t1','s6t1f',4,'step6_task1')">✓ Перевірити</button><button class="btn btn-success" onclick="showS6('s6t2')">Далі →</button></div>
 </section>
-
 <section class="card hidden" id="s6t2">
 <h2>🎯 Завдання 2. Ситуація: що робити?</h2>
 <div class="feedback feedback-warning mb-24">
@@ -865,7 +843,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="navigation"><button class="btn btn-secondary" onclick="showS6('s6t1')">← Назад</button><button class="btn btn-primary" onclick="chkMulti('s6t2','s6t2f',4,'step6_task2')">✓ Перевірити</button><button class="btn btn-success" onclick="goToStep(7)">Далі: Самооцінювання →</button></div>
 </section>
 </main>
-
 <!-- КРОК 7: САМООЦІНЮВАННЯ -->
 <main class="container hidden" id="step7Page">
 <div class="step7-header"><h2>🎉 Вітаємо! Ти завершив(ла) параграф!</h2><p>Час дізнатися свій рівень</p></div>
@@ -887,7 +864,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="tip-card">💡 <strong>Фінансова грамотність — це щоденна відповідальність.</strong><br>🌱 Кожне твоє рішення впливає на майбутнє. Дбай про власну фінансову безпеку вже сьогодні!</div>
 <div class="navigation"><button class="btn btn-warning" onclick="resetProgress()">🔄 Пройти ще раз</button><button class="btn btn-primary" onclick="goToMainPage()">🏠 На головну</button></div>
 </main>
-
 <!-- МОДАЛКИ -->
 <div class="modal-overlay" id="progressModal" role="dialog" aria-modal="true" aria-labelledby="pTitle">
 <div class="modal"><div class="modal-header"><h2 id="pTitle">📊 Мій прогрес</h2><button class="modal-close" onclick="closeModal('progressModal')" aria-label="Закрити">✕</button></div>
@@ -909,7 +885,6 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div data-icon="🏆" style="padding:10px 0 10px 32px;position:relative"><strong>Прогрес:</strong><br>Натисни на віджет прогресу для перегляду статистики.</div>
 </div>
 <button class="btn btn-primary mt-24" onclick="closeModal('helpModal')" style="width:100%">Зрозуміло!</button></div></div>
-
 <script>
 var TOTAL_TASKS = 12;
 var ST = {
@@ -924,7 +899,6 @@ var SC = {1:0, 2:0, 3:0, 4:0, 5:0, 6:0};
 var PT = {c:0, t:TOTAL_TASKS, a:[]};
 var state = {cs:0, sr:[0,0,0,0,0]};
 var tfCompleted = {};
-
 function addC(id) {
 if (PT.a.indexOf(id) !== -1) return;
 PT.a.push(id);
@@ -1129,7 +1103,6 @@ function showS6(id) {
 document.getElementById(id).classList.remove("hidden");
 window.scrollTo({top: 0, behavior: "smooth"});
 }
-
 var decisionData = {
 need: {title:"❓ ПОТРЕБА", desc:"Чи справді це необхідно? Чи можна відкласти?", items:["Оціни, чи дійсно річ потрібна","Подумай, чи можна почекати з покупкою","Відокрем потребу від бажання"]},
 opportunity: {title:"💼 МОЖЛИВОСТІ", desc:"Чи вистачає коштів? Чи залишаться гроші на необхідне?", items:["Перевір свій бюджет","Визнач, скільки можеш витратити","Переконайся, що вистачить на обов'язкове"]},
@@ -1149,7 +1122,6 @@ details.classList.add("active");
 var activeBranch = document.querySelector(".branch-" + type);
 if (activeBranch) activeBranch.classList.add("active");
 }
-
 var budgetItems = [
 {id:1, text:"👟 Взуття", price:1800, cat:"needs"},
 {id:2, text:"🎨 Курс 3D-дизайну", price:1500, cat:"goals"},
@@ -1282,7 +1254,6 @@ for (var i = 0; i < chips.length; i++) chips[i].classList.remove("correct","inco
 }, 4000);
 }
 }
-
 var sortItems = [
 {id:1, text:"❓ ПОТРЕБА: Чи справді це необхідно?"},
 {id:2, text:"💼 МОЖЛИВОСТІ: Чи вистачає коштів?"},
@@ -1437,7 +1408,6 @@ for (var k = 0; k < slotEls.length; k++) slotEls[k].classList.remove("correct-po
 }, 4000);
 }
 }
-
 var riskData = [
 {text:"💳 Ігор придбав дорогу техніку в кредит, не з'ясувавши повну вартість та розмір платежів", cat:"credits"},
 {text:"🛍️ Марія часто купує речі під впливом реклами й знижок. Наприкінці місяця їй не вистачає грошей", cat:"spending"},
@@ -1537,7 +1507,6 @@ for (var k = 0; k < all.length; k++) all[k].classList.remove("correct","incorrec
 }, 4000);
 }
 }
-
 function tog(el) {
 if (el.classList.contains("disabled")) return;
 el.classList.toggle("selected");
